@@ -1,0 +1,8 @@
+---
+- name: Configure Monitoring
+  hosts: monitoring
+  become: true
+
+  roles:
+    - prometheus
+    - node_exporter

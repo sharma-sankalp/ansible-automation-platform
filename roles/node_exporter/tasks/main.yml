@@ -1,0 +1,4 @@
+---
+- name: Install Node Exporter
+  debug:
+    msg: "Node Exporter installation placeholder"

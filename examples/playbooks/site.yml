@@ -1,0 +1,9 @@
+---
+- name: Configure Infrastructure
+  hosts: all
+  become: true
+
+  roles:
+    - common
+    - docker
+    - node_exporter

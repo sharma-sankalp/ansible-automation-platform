@@ -1,0 +1,10 @@
+---
+- name: Configure Database Servers
+  hosts: databases
+  become: true
+
+  tasks:
+    - name: Ensure PostgreSQL is installed
+      package:
+        name: postgresql
+        state: present

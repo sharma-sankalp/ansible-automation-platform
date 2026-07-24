@@ -1,0 +1,12 @@
+---
+- name: Update package cache
+  package:
+    update_cache: yes
+
+- name: Install common packages
+  package:
+    name:
+      - curl
+      - git
+      - unzip
+    state: present

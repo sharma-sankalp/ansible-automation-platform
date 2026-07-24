@@ -1,0 +1,4 @@
+---
+nginx_worker_processes: auto
+
+server_name: web01.example.com
